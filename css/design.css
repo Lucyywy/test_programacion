@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'ADLaM Display', cursive;
+    font-family: 'Pacifico', cursive;
+    box-sizing: border-box;
+}
+.body{
+    background: #EDECCE;
+    display: grid;
+    grid-template-areas: "cabecera section"
+    "menu section"
+    ;
+}
+.menu{
+    background: #B5F7F9;
+    grid-area: menu;
+}
+
+
+.cabecera{
+    background: #A0DBA9;
+   grid-area: cabecera;
+}
+
+.section{
+    grid-area: section;
+    background: #C9F2A5;
+}
