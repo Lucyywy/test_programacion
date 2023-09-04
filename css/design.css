@@ -8,6 +8,7 @@
 
 .body{
     background: #EDECCE;
+    margin: 20px;
 }
 
 
@@ -61,7 +62,7 @@ img {
 .columns {
     column-count: 2; /* Dividir en dos columnas */
     column-gap: 20px; /* Espacio entre columnas */
-    background: #B5F7F9;
+    background: #758e72;
 }
 
 .image-container{
