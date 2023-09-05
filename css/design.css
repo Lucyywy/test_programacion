@@ -1,71 +1,59 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'ADLaM Display', cursive;
+/* Improved typography with custom fonts */
+body {
     font-family: 'Pacifico', cursive;
-   
 }
 
-.body{
-    background: #EDECCE;
-    margin: 20px;
+/* Background image and gradient */
+body {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #EDECCE;
+    background: linear-gradient(rgba(237, 236, 206, 0.8), rgba(201, 242, 165, 0.8));
 }
 
-
-.contenido{
-    margin: 11px;
-    padding: 32px;
-    background: #C9F2A5;
-   
-}
-
-.contenido_cabecera{
-    display: grid;
-    transform: skewY(5deg);
-    place-items: center;
-
-}
-
-.grid-layout{
-    display: grid;
-    width: 80%;
-    margin: 80%;
-    background-color: #A0DBA9;
-    padding: 20px;
-    border: 1px solid black;
-}
-
-img {
-    width: 100%; /* Ajustar al ancho del contenedor */
-    max-width: 500px; /* Establecer un ancho máximo */
-    border: 1px solid #ccc; /* Agregar un borde */
-    margin: 10px; /* Agregar margen exterior */
-}
-
-.cabecera{
-    display: grid;
-    background: #A0DBA9;
-    grid-area: cab;
-    transform: skewY(-5deg);
-    place-items: center;
-    
-}
-
-.section{
+/* Card-style sections */
+.section {
     margin: 41px;
-    display: grid;
-    grid-area: sec;
-    background: #C9F2A5;
-    place-items: center;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.columns {
-    column-count: 2; /* Dividir en dos columnas */
-    column-gap: 20px; /* Espacio entre columnas */
-    background: #758e72;
+/* Add custom fonts and icons */
+h1, h2, h3 {
+    font-family: 'ADLaM Display', cursive;
 }
 
-.image-container{
- display: grid;
- place-items: right;
+/* Text shadows for headings */
+h1, h2, h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+/* Icon styling (adjust as needed) */
+.icon {
+    font-family: 'Material Symbols Outlined', sans-serif;
+    font-size: 24px;
+    color: #007BFF;
+    margin-right: 8px;
+}
+
+/* Hover effect for buttons and links */
+a, button {
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover, button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles can be added for other elements */
+
